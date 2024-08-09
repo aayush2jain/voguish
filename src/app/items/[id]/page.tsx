@@ -4,7 +4,9 @@ import { useEffect, useState } from "react";
 import data from "../../../data/product.json";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
-
+import { CardBody, CardContainer, CardItem } from "../../../components/ui/3d-card";
+import Image from "next/image";
+import Navbar from "@/components/navbar";
 export default function Item() {
     const [itemData, setItemData] = useState(null);
     const params = useParams();
@@ -29,10 +31,21 @@ export default function Item() {
 
     return (
         <>
-            <div className="flex flex-row pt-[10vh] bg-white">
-                <div className="w-[40vw] h-[100vh] justify-center  flex">
-                <img src={itemData.image} alt="" className="w-[30vw] h-[80vh] "></img>
-                </div>
+            <Navbar></Navbar>
+
+            <div className="flex flex-row bg-white">
+                <CardContainer className="inter-var mt-0 mb-[30vh]">
+                    <CardBody className=" relative group/card w-[30vw] mr-[10vw] ml-[4vw] h-auto rounded-xl  ">
+                        <CardItem rotateX={30}
+                            rotateZ={-5} translateZ="100" className="h-[80vh] w-[30vw] justify-center object-cover  flex">
+                            <img
+                                src={itemData.image}
+                                className="h-[80vh] object-cover w-[30vw] rounded-xl group-hover/card:shadow-xl"
+                                alt="thumbnail"
+                            ></img>
+                        </CardItem>
+                    </CardBody>
+                </CardContainer>
                 <div className="w-[60vw] h-auto  flex flex-col">
                 <h1 className="text-3xl font-bold">Product Name</h1>
                 <div className="flex flex-row mt-[3vh] ">

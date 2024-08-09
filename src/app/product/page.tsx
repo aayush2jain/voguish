@@ -4,7 +4,8 @@ import Image from 'next/image'
 import data from '../../data/product.json'
 import { FaStar } from "react-icons/fa6";
 import {useNavigate} from 'react-router-dom'
-import { useRouter } from 'next/navigation'; // Use next/navigation for routing in Next.js
+import { useRouter } from 'next/navigation'; 
+import Navbar from "@/components/navbar";// Use next/navigation for routing in Next.js
 
 export default function product(){
     const router = useRouter(); // Use router for navigation
@@ -14,6 +15,8 @@ export default function product(){
     }
     return(
         <>
+            <Navbar></Navbar>
+
         <div className='flex flex-row '>
             <div className='w-[20vw] h-[80vh] bg-white pl-[3vw] flex flex-col font-medium gap-[1.5vh]'>
                <h1 className='text-2xl'>Filters</h1>
