@@ -11,7 +11,8 @@ import { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "../components/ui/navbar-menu";
 export default function Navbar(){
    
-   const [active, setActive] = useState("");
+    const [active, setActive] = useState<string | null>(null);
+
     return(
            
         <>
