@@ -10,7 +10,7 @@ import Navbar from "@/components/navbar";
 export default function Item() {
     const [itemData, setItemData] = useState(null);
     const params = useParams();
-    const id = params.id; // Get the id parameter from the URL
+    const id :string = params.id[0]; // Get the id parameter from the URL
 
     useEffect(() => {
         if (id) {
