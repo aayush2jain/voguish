@@ -8,10 +8,20 @@ import { CardBody, CardContainer, CardItem } from "../../../components/ui/3d-car
 import Image from "next/image";
 import Navbar from "@/components/navbar";
 export default function Item() {
-    const [itemData, setItemData] = useState(null);
+    interface ItemData {
+        id: number;
+        title: string;
+        description: string;
+        price: number;
+        image: string;
+    }
+
+    // Define the state with the correct type
+    const [itemData, setItemData] = useState<ItemData | null>(null);
+    // const [itemData, setItemData] = useState(null);
     const params = useParams();
     const id :string = params.id[0]; // Get the id parameter from the URL
-
+   
     useEffect(() => {
         if (id) {
             // Ensure id is properly converted to a number for comparison

@@ -10,7 +10,7 @@ import Navbar from "@/components/navbar";// Use next/navigation for routing in N
 export default function product(){
     const router = useRouter(); // Use router for navigation
     // Handle redirection
-    function handleRedirect(id) {
+    function handleRedirect(id:string) {
         router.push(`/items/${id}`); // Navigate to the specified route
     }
     return(
