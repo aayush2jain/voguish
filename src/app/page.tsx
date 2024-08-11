@@ -52,24 +52,28 @@ export default function Home() {
         'https://img.freepik.com/free-photo/young-female-model-sleeping-underwear_1303-19352.jpg?t=st=1722422169~exp=1722425769~hmac=35685ddb94208c40311037502cb26376426b3cbc33b27eb848f6eb55e760543b&w=900',
       name: "Charles Dickens",
       title: "A Tale of Two Cities",
+      discryption:"demo product"
     },
     {
       image:
         'https://img.freepik.com/free-photo/young-girl-checked-shirt-pink-t-shirt-stretching-one-hand-as-holding-something-pointing-it-with-index-finger-looking-pretty-front-view_176474-87269.jpg?t=st=1722421948~exp=1722425548~hmac=dea21f1a0c2c797da71c47c2b7759c776c156174903d204458a90765727c6b1a&w=900',
          name: "William Shakespeare",
         title: "Hamlet",
+      discryption: "demo product"
     },
     {
       image:
         'https://img.freepik.com/free-photo/portrait-handsome-confident-stylish-hipster-lambersexual-modelman-dressed-jacket-jeans-fashion-male-posing-studio-near-grey-wall_158538-23976.jpg?t=st=1722422130~exp=1722425730~hmac=61b990c8121ca2e83d4b61281d43000dfab80579bfeaa11079b08dd5631ef685&w=826',
       name: "Charles Dickens",
       title: "A Tale of Two Cities",
+      discryption: "demo product"
     },
     {
       image:
         'https://img.freepik.com/free-photo/portrait-handsome-confident-stylish-hipster-lambersexual-modelman-dressed-jacket-jeans-fashion-male-posing-studio-near-grey-wall_158538-23976.jpg?t=st=1722422130~exp=1722425730~hmac=61b990c8121ca2e83d4b61281d43000dfab80579bfeaa11079b08dd5631ef685&w=826',
       name: "Charles Dickens",
       title: "A Tale of Two Cities",
+      discryption: "demo product"
     }
   
   ];
