@@ -16,7 +16,7 @@ export default function Item() {
         if (id) {
             // Ensure id is properly converted to a number for comparison
             const foundItem = data.product.find(item => item.id === parseInt(id));
-            setItemData(foundItem || null); 
+            setItemData(foundItem || null);
         }
     }, [id]);
 
@@ -47,37 +47,37 @@ export default function Item() {
                     </CardBody>
                 </CardContainer>
                 <div className="w-[60vw] h-auto  flex flex-col">
-                <h1 className="text-3xl font-bold">Product Name</h1>
-                <div className="flex flex-row mt-[3vh] ">
-                <h1 className="text-3xl font-bold">₹ 3,199</h1>
-                <h1 className="text-xl text-green-500 "> 20 % off</h1>
-                </div>
-                <div className="flex flex-row">
-                    <h1>MRP</h1>
+                    <h1 className="text-3xl font-bold">Product Name</h1>
+                    <div className="flex flex-row mt-[3vh] ">
+                        <h1 className="text-3xl font-bold">₹ 3,199</h1>
+                        <h1 className="text-xl text-green-500 "> 20 % off</h1>
+                    </div>
+                    <div className="flex flex-row">
+                        <h1>MRP</h1>
                         <h1 className="text-red-400 line-through decoration-black">₹3,999</h1>
                         <h1>inclusive all taxes</h1>
-                </div>
-                <div className="flex flex-row outline-dashed w-[30vw] my-[2vh]">
-                <div className="w-[10vw] bg-caret-lime-300 h-[12vh] flex flex-col justify-center items-center border-r-2 border-red-500">
-                    <h1>Use code</h1>
-                    <h1>V1000</h1>
-                </div>
-                <div className="w-[22vw] h-[12vh] p-1 ">
+                    </div>
+                    <div className="flex flex-row outline-dashed w-[30vw] my-[2vh]">
+                        <div className="w-[10vw] bg-caret-lime-300 h-[12vh] flex flex-col justify-center items-center border-r-2 border-red-500">
+                            <h1>Use code</h1>
+                            <h1>V1000</h1>
+                        </div>
+                        <div className="w-[22vw] h-[12vh] p-1 ">
                             <h1>Get it for ₹ 2,199</h1>
                             <h1>Get flat ₹1000 off on 3999 and above</h1>
                             <h1>View all products </h1>
-                </div>
-                
-                </div>
+                        </div>
+
+                    </div>
                     <h1 className="font-bold">Select Color</h1>
                     <div className="flex flex-row gap-2">
-                        <MdOutlineKeyboardArrowLeft className="flex items-center justify-center h-[5vh]"/>
+                        <MdOutlineKeyboardArrowLeft className="flex items-center justify-center h-[5vh]" />
                         <div className="h-[5vh] w-[5vh] bg-slate-500"></div>
                         <div className="h-[5vh] w-[5vh] bg-red-500"></div>
                         <div className="h-[5vh] w-[5vh] bg-green-500"></div>
                         <div className="h-[5vh] w-[5vh] bg-blue-500"></div>
                         <MdOutlineKeyboardArrowRight className="flex items-center justify-center h-[5vh]" />
-                         </div>
+                    </div>
                     <h1 className="font-bold mt-[2vh]">Select Size</h1>
                     <div className="flex flex-row gap-2">
                         <MdOutlineKeyboardArrowLeft className="flex items-center justify-center h-[5vh]" />
@@ -93,8 +93,8 @@ export default function Item() {
                     <h1>DELIVERY OPTIONS</h1>
                     <input type="text" className="w-[30vw] my-[2vh] p-[2vh] bg-slate-300 " placeholder="ENTER PIN CODE"></input>
                     <div className="flex flex-row gap-[2vw]">
-                       <div className="h-[8vh] w-[16vw] bg-pink-300 flex justify-center items-center rounded-lg">Add For Home Trial</div>
-                        <div className="h-[8vh] w-[12vw] bg-pink-300 flex justify-center items-center rounded-lg">Buy Now</div>
+                        <a href='/cart'><div className="h-[8vh] w-[16vw] bg-pink-300 flex justify-center items-center rounded-lg">Add For Home Trial</div></a>
+                        <a href='/cart'><div className="h-[8vh] w-[12vw] bg-pink-300 flex justify-center items-center rounded-lg">Buy Now</div></a>
                     </div>
                     <h1 className="text-xl font-bold mt-[4vh]">Product Details</h1>
                     <ul>

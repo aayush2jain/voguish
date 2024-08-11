@@ -20,7 +20,7 @@ export default function signin(){
 
                 <button className='width-[10vw] mx-[2.5vw] py-3 bg-black text-white text-xl rounded-xl'>GET OTP</button>
                 <div className='rounded-xl border-black border-2 w-[25vw] ml-[2.5vw] mt-2'>
-                    <button className='width-[10vw] ml-[7vw] py-3 text-xl  mt-[1vh] '>Sign In With email</button>
+                <a href="/login"><button className='width-[10vw] ml-[7vw] py-3 text-xl  mt-[1vh] '>Sign In With email</button></a> 
                 </div>
                 <div className='flex flex-row rounded-xl border-black border-2 w-[25vw] ml-[2.5vw] mt-2'>
                     <div className=" mt-6 ml-[5vw]">

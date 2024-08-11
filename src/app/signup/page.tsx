@@ -22,7 +22,7 @@ export default function signup(){
                     </div>
                     <button className='width-[10vw] mr-[2.5vw] py-3 text-xl  mt-[2vh]'>Continue using Google</button>
                 </div>
-                <a href="/signup" className='text-center mt-1 underline text-black decoration-black' >Already Registered? Sign in</a>
+                <a href="/signin" className='text-center mt-1 underline text-black decoration-black' >Already Registered? Sign in</a>
             </div>
          </div>
         </>

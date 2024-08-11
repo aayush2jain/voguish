@@ -33,7 +33,6 @@ export default function Home() {
         trigger: '#imp',
         start: 'top 90%',
         end: "top 10%",
-        markers: true,
         scrub: 2
       }
     })
