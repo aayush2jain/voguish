@@ -77,7 +77,7 @@ export const InfiniteMovingCards = ({
                 className
             )}
         >
-            <div
+            <ul
                 ref={scrollerRef}
                 className={cn(
                     "flex flex-row gap-[30vw]",
@@ -106,7 +106,7 @@ export const InfiniteMovingCards = ({
                         </blockquote>
                     </div>
                 ))}
-            </div>
+            </ul>
         </div>
     );
 };
