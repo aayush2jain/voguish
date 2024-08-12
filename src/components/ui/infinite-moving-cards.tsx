@@ -96,8 +96,8 @@ export const InfiniteMovingCards = ({
                                 <div className='h-[40vh] w-[22vw] bg-red-500  top-0 absolute z-10 rounded-3xl'>
                                     <img src={item.image} className="h-[40vh] rounded-3xl" alt="d"></img>
                                 </div>
-                                <div className='h-[60vh] w-[20vw] bg-white text-black  top-0 left-[1vw] absolute rounded-3xl'>
-                                    <h1 className="mt-[45vh] text-[3vh] text-center font-medium">
+                                <div className='h-[50vh] w-[20vw] bg-white text-black  top-0 left-[1vw] absolute rounded-3xl'>
+                                    <h1 className="mt-[42.5vh] text-[3vh] text-center font-medium">
                                         {item.name}
                                     </h1>
                                 </div>

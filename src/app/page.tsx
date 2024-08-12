@@ -70,7 +70,7 @@ export default function Home() {
     },
     {
       image:
-        'https://img.freepik.com/free-photo/portrait-handsome-confident-stylish-hipster-lambersexual-modelman-dressed-jacket-jeans-fashion-male-posing-studio-near-grey-wall_158538-23976.jpg?t=st=1722422130~exp=1722425730~hmac=61b990c8121ca2e83d4b61281d43000dfab80579bfeaa11079b08dd5631ef685&w=826',
+        'https://img.freepik.com/premium-photo/woman-smiling-with-colorful-scarf-her-head_1121404-36033.jpg?w=900',
       name: "Lea",
       title: "A Tale of Two Cities",
       discryption: "demo product"
