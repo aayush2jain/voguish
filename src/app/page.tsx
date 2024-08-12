@@ -114,21 +114,21 @@ export default function Home() {
           </ImagesSlider>
     </div>
       </div>
-      <div className='flex md:flex-row flex-col my-[10vh] justify-evenly text-white font-semibold text-2xl text-center '>
+      <div className='flex md:flex-row flex-col my-[10vh] justify-evenly text-gray-800 font-bold text-2xl text-center '>
         <WobbleCard containerClassName="w-[80vw] md:w-[25vw] bg-pink-800 h-[50vh]" className="pt-[5vh]">
-          <div className="h-[50vh] w-[80vw] md:w-[25vw] bg-[url('https://img.freepik.com/free-photo/gen-z-person-exploring-absurdist-fashion-beauty_23-2151103996.jpg?t=st=1722417748~exp=1722421348~hmac=afd6a1ae0bcbefe1e4053d52d306260217a7cca780aaf9a6cb9498f440aa9200&w=1060')] bg-cover rounded-[6vmin] pt-[30vh]">
+            <div className="h-[50vh] w-[80vw] md:w-[25vw] bg-[url('https://img.freepik.com/premium-photo/young-woman-after-shopping-with-bags_85869-3522.jpg?w=900')] bg-cover rounded-[6vmin] pt-[30vh]">
           <h1>BOOK A HOME TRIAL</h1>
         </div>
         </WobbleCard>
-        <WobbleCard containerClassName="w-[80vw] md:w-[25vw] bg-pink-800 h-[50vh]" className="pt-[5vh]">
+        <WobbleCard containerClassName="w-[80vw] md:w-[25vw] bg-pink-800 h-[50vh]" className="pt-[5vh] text-white">
           <div className="h-[50vh] w-[80vw] md:w-[25vw] bg-blue-400 bg-[url('https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400848.jpg?t=st=1722419131~exp=1722422731~hmac=7dd0a732647594f2f56f721bd463b90e88974c75b19dc7686f33db26d035d3d5&w=900')] bg-cover rounded-[6vmin] pt-[30vh]">
           <h1>GET FASHION </h1>
           <h1>RECOMMENDATION</h1>
         </div>
         </WobbleCard>
         <WobbleCard containerClassName="w-[80vw] md:w-[25vw] bg-pink-800 h-[50vh]" className="pt-[5vh]">
-          <div className="h-[50vh] w-[80vw] md:w-[25vw] bg-blue-400 bg-[url('https://img.freepik.com/free-photo/fashion-portrait-young-beautiful-teen-girls-studio_155003-9015.jpg?t=st=1722419180~exp=1722422780~hmac=dda3d68d59f0be503a11dc72dd5f19e5849789c2559233b6c4748c0dd17be927&w=900')] bg-cover rounded-[6vmin] pt-[30vh]">
-          <h1>KIDS CHOICE </h1>
+            <div className="h-[50vh] w-[80vw] md:w-[25vw] bg-blue-400 bg-[url('https://img.freepik.com/free-photo/my-new-creation-soon-will-be-brought-life-focused-young-sewer-working-her-new-outfit-grabbing-scissors-while-working-workshop-with-sewing-machine-successful-tailor-keeps-receiving-orders_176420-14567.jpg?t=st=1723449823~exp=1723453423~hmac=8c72ebf71c7c11502596d63d81b171364663eff2b5ae7c04be3261f3d611df19&w=900')] bg-cover rounded-[6vmin] pt-[30vh]">
+              <h1>Fitting & Alteration </h1>
         </div>
         </WobbleCard>
       </div>
